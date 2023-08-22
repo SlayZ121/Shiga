@@ -8,7 +8,7 @@ body {
     font-family: Akzidenz-Grotesk Std;
     background-image: url("https://cdn.dribbble.com/users/162444/screenshots/2275266/shot_lg.jpg");
     
-    
+    background-position:center center;
     
     background-size:cover;
     background-repeat:none;
@@ -69,8 +69,8 @@ h3 {
 /* Hero section styles */
 .hero {
     text-align: center;
-    padding:100px 0;
-    
+    padding-top:150px;
+    padding-bottom:230px;
         margin-bottom: 0; /* Remove margin from the hero section */
     
      /* Add margin to create space between hero and footer */
@@ -82,7 +82,7 @@ h3 {
 }
 
 .hero p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #666;
 }
 
@@ -115,7 +115,8 @@ footer {
     margin-bottom: 50px;
 }
 .capel-text{
-    font-family:allura,cursive;
+    font-family: 'Tangerine', cursive;
+    font-size: 4rem !important;
     
 }
 .image {
@@ -135,4 +136,35 @@ footer {
 footer p {
     margin: 0;
     padding: 0;
+}
+.divider {
+    width: 100%;
+    height: 5px;
+    background-image: linear-gradient(to right, transparent, #e66767, #f8c471, #e66767, transparent);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    
+    margin: 20px 0;
+  }
+  
+.image img {
+  max-width: 100%;
+  display: block;
+  border-radius: 20px; /* Adjust the value to control the curvature */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.pad{
+    flex: 1 !important;
+    padding: 20px !important;
+    margin-left: 20px !important;
+}
+.paragraph p{
+    font-size: 1.1rem;
+    color: #666;
+}
+.paragraph h3{
+    font-size:2.7rem !important;
+}
+.logo h3{
+    font-family: 'satisfy',cursive !important;
+    font-size:2rem !important;
 }
